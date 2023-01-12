@@ -1,0 +1,15 @@
+#pull tomcat latest image from dockerhub
+
+FROM tomcat:latest
+
+#Maintier
+MAINTAINER "SHAMEER"
+
+# copy war file on to container
+COPY /opt/code/iwayQ.war /usr/local/tomcat/webapps
+
+# opening port 
+EXPOSE 8080
+
+
+
