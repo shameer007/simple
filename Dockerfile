@@ -6,7 +6,7 @@ FROM tomcat:8-jre8
 MAINTAINER "SHAMEER"
 
 # copy war file on to container
-COPY /opt/code/iwayQ.war /usr/local/tomcat/webapps
+COPY /opt/iwayQ.war /usr/local/tomcat/webapps
 
 # opening port 
 EXPOSE 8080
