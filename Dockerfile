@@ -1,6 +1,6 @@
 #pull tomcat latest image from dockerhub
 
-FROM tomcat:latest
+FROM tomcat:8-jre8
 
 #Maintier
 MAINTAINER "SHAMEER"
